@@ -1,0 +1,230 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+/* Adding a color to the active/current link */
+.topnav a.active {
+  color: white;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 20px auto;
+  font-size: 2.5rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  margin: 0 auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align : center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 30%;
+  width: 20%;
+  margin: 50px auto 25px auto;
+}
+
+hr {
+  width: 10%;
+  border-color: #66BFBF;
+  border-width: 0.5rem;
+  border-style: dotted none none;
+  margin: 10px auto;
+}
+
+.titles {
+  padding-top : 20px;
+}
+
+li{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #66BFBF;
+}
+
+a:hover{
+  color: #11999E; 
+}
+
+.cert_logo{
+  border-radius: 50%;
+  height: 15%;
+  width: 10%;
+  margin: 50px auto 25px auto;
+}
+
+p{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Styling inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 40%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Styling the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #66BFBF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #11999E;
+}
+
+/* Adding a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact{
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 35%;
+  padding-bottom: 10px;
+  
+}
+
+input {
+  display: block;
+}
+
+select {
+  display: block;
+}
+
+#contact_heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#break {
+  margin-top: 30px;
+}
+
+.bottom-container {
+  background-color: black;
+  padding-top: 50px;
+ padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.register {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 35%;
+  padding-bottom: 30px;
+}
+
+#reg {
+  text-align: center;
+  margin: 10px;
+}
+
+.login {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 35%;
+  padding-bottom: 16.1rem;
+}
+
+#log {
+  text-align: center;
+  margin: 10px;
+}
+
+.calc {
+  border: 3px solid black;
+  width: 300px;
+  border-spacing: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 2px solid black;
+  border-radius: 20%;
+}
+
+.calculator {
+  margin: 6.2%;
+}
+
+#calcbody {
+   background-color: #E4F9F5;
+}
